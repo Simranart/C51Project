@@ -1,0 +1,53 @@
+h1 {
+    color: white;
+ 
+}
+
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+  
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   
+}
+
+
+
+
+p,h2{
+    text-align: center;
+    color: cadetblue
+   
+}
+
+.item{
+    position:relative;
+    border: ridge;
+    
+    
+    
+}
+
+.item p{
+    position: relative;
+    color: cadetblue;
+} 
+
+body{
+    background-color:lightyellow;
+}
+
